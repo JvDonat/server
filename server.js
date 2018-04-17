@@ -4,7 +4,7 @@ var usO = ["admin", "adm"];
 var psO = ["Joao3083", "J30832139v"];
 var ip = require("ip");
 var address = ip.address();
-var loginAttempts = 0;//fs.readFileSync('loginAttempt');
+var loginAttempts = fs.readFileSync('loginAttempt');
 function err()
 {
     console.log("error...");
