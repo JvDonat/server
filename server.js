@@ -66,17 +66,17 @@ function register()
         }
     });
 }
-//console.log("1 - Login");
-//console.log("2 - Register");
-//prompt.get(['action'], function (err, result) {
-    //if(result.action == "1")
-    //{
-        //console.log('Login OK');
-        //login();
-    //}
-    //if(result.action == "2")
-    //{
-        //console.log('Register OK');
-        //register();
-    //}
-//});
+console.log("1 - Login");
+console.log("2 - Register");
+prompt.get(['action'], function (err, result) {
+    if(result.action == "1")
+    {
+        console.log('Login OK');
+        login();
+    }
+    if(result.action == "2")
+    {
+        console.log('Register OK');
+        register();
+    }
+});
