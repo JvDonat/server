@@ -20,7 +20,6 @@ function loadWeb()
     }
     app.use(express.static('web'));
 }
-loadWeb();
 var prompt = require('prompt');
 prompt.start();
 function login(){
